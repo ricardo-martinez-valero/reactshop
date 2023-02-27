@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev -p 8082",
     "build": "next build",
-    "start": "next start -p 8081",
+    "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint",
     "lint:fix": "eslint src/ --fix"
   },
